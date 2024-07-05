@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <!--preloader-->
+   <div class="loader" id="preloader">
+      <div>
+         <ul>
+            <li>
+               <svg fill="currentColor" viewBox="0 0 90 120">
+                  <path
+                     d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z">
+                  </path>
+               </svg>
+            </li>
+            <li>
+               <svg fill="currentColor" viewBox="0 0 90 120">
+                  <path
+                     d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z">
+                  </path>
+               </svg>
+            </li>
+            <li>
+               <svg fill="currentColor" viewBox="0 0 90 120">
+                  <path
+                     d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z">
+                  </path>
+               </svg>
+            </li>
+            <li>
+               <svg fill="currentColor" viewBox="0 0 90 120">
+                  <path
+                     d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z">
+                  </path>
+               </svg>
+            </li>
+            <li>
+               <svg fill="currentColor" viewBox="0 0 90 120">
+                  <path
+                     d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z">
+                  </path>
+               </svg>
+            </li>
+            <li>
+               <svg fill="currentColor" viewBox="0 0 90 120">
+                  <path
+                     d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z">
+                  </path>
+               </svg>
+            </li>
+         </ul>
+      </div><span>Loading</span>
+   </div>
+   <!--preloader end-->
+
+   <div class="page-wrapper">
+      <!---------------------------------------------PORTFOLIO START------------------------------------------->
+      <section class="portfolio">
+         <div class="container">
+            <div class="section-header">
+               <h2 class="section-header-title" data-splitting data-aos="text-animation">Portfolio</h2>
+            </div>
+            <!-- Filter list for large screens -->
+  <div class="filter-list">
+   <ul class="filter-items">
+     <li class="filter-item">
+       <button class="active" data-filter-btn>All</button>
+     </li>
+     <li class="filter-item">
+       <button data-filter-btn>Council</button>
+     </li>
+     <li class="filter-item">
+       <button data-filter-btn>Fest/Blog</button>
+     </li>
+   </ul>
+ </div>
+
+ <!-- Filter select box for small screens -->
+ <div class="filter-select-box">
+   <button class="filter-select" data-select>
+     <div class="select-value" data-select-value>All</div>
+     <div class="select-icon">
+       <i class="las la-arrow-down"></i>
+     </div>
+   </button>
+   <ul class="select-list">
+     <li class="select-item"><button data-select-item>All</button></li>
+     <li class="select-item"><button data-select-item>Council</button></li>
+     <li class="select-item"><button data-select-item>Fest/Blog</button></li>
+   </ul>
+ </div>
+
+ <!-- Project list -->
+ <ul class="project-list">
+   <li class="project-item active" data-filter-item data-category="Council">
+     <a href="#">
+       <figure class="project-img">
+         <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+         <img src="assets/project-1.jpg" alt="finance" loading="lazy">
+       </figure>
+       <h3 class="project-title">Finance</h3>
+       <p class="project-category">Web development</p>
+     </a>
+   </li>
+   <li class="project-item active" data-filter-item data-category="Fest/Blog">
+     <a href="#">
+       <figure class="project-img">
+         <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+         <img src="assets/project-2.png" alt="orizon" loading="lazy">
+       </figure>
+       <h3 class="project-title">Orizon</h3>
+       <p class="project-category">shuhiab is</p>
+     </a>
+   </li>
+   <li class="project-item active" data-filter-item data-category="Council">
+     <a href="#">
+       <figure class="project-img">
+         <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+         <img src="assets/project-3.jpg" alt="fundo" loading="lazy">
+       </figure>
+       <h3 class="project-title">Fundo</h3>
+       <p class="project-category">Web design</p>
+     </a>
+   </li>
+   <li class="project-item active" data-filter-item data-category="Fest/Blog">
+     <a href="#">
+       <figure class="project-img">
+         <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+         <img src="assets/project-4.png" alt="brawlhalla" loading="lazy">
+       </figure>
+       <h3 class="project-title">Brawlhalla</h3>
+       <p class="project-category">Applications</p>
+     </a>
+   </li>
+   <li class="project-item active" data-filter-item data-category="Council">
+     <a href="#">
+       <figure class="project-img">
+         <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+         <img src="assets/project-5.png" alt="dsm." loading="lazy">
+       </figure>
+       <h3 class="project-title">DSM.</h3>
+       <p class="project-category">Web design</p>
+     </a>
+   </li>
+   <li class="project-item active" data-filter-item data-category="Fest/Blog">
+     <a href="#">
+       <figure class="project-img">
+         <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+         <img src="assets/project-1.jpg" alt="metaspark" loading="lazy">
+       </figure>
+       <h3 class="project-title">MetaSpark</h3>
+       <p class="project-category">Web design</p>
+     </a>
+   </li>
+ </ul>
+         </div>
+      </section>
+      <!---------------------------------------------PORTFOLIO END------------------------------------------->
+      <!---------------------------------------------TESTIMONIAL START------------------------------------------->
+      <section class="testimonial">
+         <div class="container">
+            <div class="section-header">
+               <h2 class="section-header-title" data-splitting data-aos="text-animation">Testimonial</h2>
+            </div>
+               <div class="slider-container">
+                  <div class="image"></div>
+               </div>
+
+               <div class="feedback"></div>
+
+               <div class="navigation">
+                  <input type="radio" name="testimonial" id="testimonial1" class="testimonial-radio input2" checked>
+                  <input type="radio" name="testimonial" id="testimonial2" class="testimonial-radio input2">
+                  <!-- Add more radio inputs and labels if you have more testimonials -->
+               </div>
+         </div>
+      </section>
+      <!---------------------------------------------TESTIMONIAL END------------------------------------------->
+      <!---------------------------------------------CONTACT START------------------------------------------->
+      <section class="contact" id="contact">
+         <div class="container">
+            <div class="section-header">
+               <h2 class="section-header-title" data-splitting data-aos="text-animation">Contact US</h2>
+            </div>
+            <div class="contact-content">
+               <div class="contact-items">
+                  <div class="contact-item" data-aos="fade-up">
+                     <a href="https://wa.link/khbta3" target="_blank">
+                        <i class="las la-phone"></i></a>
+                     <div class="text">
+                        <h3>call us</h3>
+                        <p>+91 97450 19789</p>
+                     </div>
+                  </div>
+                  <div class="contact-item" data-aos="fade-up">
+                     <a href="mailto:fest.masa2024@gmail.com" target="_blank">
+                        <i class="las la-envelope"></i></a>
+                     <div class="text">
+                        <h3>email us</h3>
+                        <p>fest.masa2024@gmail.com</p>
+                     </div>
+                  </div>
+                  <div class="contact-item" data-aos="fade-up">
+                     <a href="https://maps.app.goo.gl/U6JUFn1WCj9aDTRG6" target="_blank">
+                        <i class="las la-map-marker"></i></a>
+                     <div class="text">
+                        <h3>reach us</h3>
+                        <p>Pmsa Wafy College,kattilangadi</p>
+                     </div>
+                  </div>
+               </div>
+               <form action="#" class="contact-form" data-aos="fade-up">
+                  <div class="col-2">
+                     <div class="input-box">
+                        <input type="text" placeholder="Name" class="input" id="name">
+                        <div class="error-text">Name can't be blank</div>
+                     </div>
+                     <div class="input-box">
+                        <input type="tel" placeholder="Phone" class="input" id="phone">
+                        <div class="error-text">Phone can't be blank</div>
+                     </div>
+                  </div>
+                  <div class="input-box">
+                     <input type="text" placeholder="Subject" class="input" id="subject">
+                     <div class="error-text">Subject can't be blank</div>
+                  </div>
+                  <div class="input-box">
+                     <textarea placeholder="Feedback" class="input input-message" id="textarea"></textarea>
+                     <div class="error-text">Feedback can't be blank</div>
+                  </div>
+                  <button type="submit" class="btn">send feedback</button>
+               </form>
+            </div>
+         </div>
+      </section>
+      <!---------------------------------------------CONTACT END------------------------------------------->
+
+      <!---------------------------------------------FOOTER START------------------------------------------->
+      <footer class="footer">
+         <div class="footer-container container">
+            <div class="footer-social">
+               <a href="https://www.facebook.com/pmsawafy" target="_blank"><i class="lab la-facebook"></i></a>
+               <a href="https://www.instagram.com/wafypmsa/" target="_blank"><i class="lab la-instagram"></i></a>
+               <a href="https://www.youtube.com/@munthajulafnanstudentsasso6980" target="_blank"><i
+                     class="lab la-youtube"></i></a>
+            </div>
+            <div class="footer-copyright">
+               <!-- &copy;2024 MASA. All Right Reserved -->
+               Designed by <a href="https://mohdshuhaib.github.io/personalshuhaib2/?#">Shuhaib</a> & <a
+                  href="https://m-salih3.github.io/redirect/">Salih</a>
+            </div>
+         </div>
+      </footer>
+      <!---------------------------------------------FOOTER END------------------------------------------->
+   </div>
+   <script src="https://smtpjs.com/v3/smtp.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+   <script src="js/script.js"></script>
+</body>
+
+</html>
